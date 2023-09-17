@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root_password",
+    "database": "respondio_db",
+    "host": "db",
+    "dialect": "mysql",
+    "secret": "respondio_dev"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "secret": "respondio_test"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "secret": "respondio_prod"
+  }
+}
